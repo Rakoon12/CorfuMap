@@ -9,20 +9,19 @@ function init() {
   map = new google.maps.Map(document.getElementById('map-holder'), {
     center: {lat: 0, lng: 0},
     zoom: 3,
-	mapTypeControl: false,
-	streetViewControl: false,
-	fullscreenControl: false,
-	mapTypeId: 'satellite'
+    mapTypeControl: false,
+    streetViewControl: false,
+    fullscreenControl: false,
+    mapTypeId: 'satellite'
   });
+	
   map.data.setControls(['Point', 'LineString', 'Polygon']);
   map.data.setStyle({
     editable: true,
     draggable: true,
-	clickable: true
+    clickable: true
   });
-  map.data.addListener('click', function(event) {
-   map.data.overrideStyle(event.feature, {fillColor: 'red'});
-  });
+
   bindDataLayerListeners(map.data);
 
   // Retrieve HTML elements.
@@ -32,6 +31,7 @@ function init() {
 
   map.data.loadGeoJson('data.geojson');
 }
+
 google.maps.event.addDomListener(window, 'load', init);
 
 // Refresh different components from other components.
