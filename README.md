@@ -5,8 +5,7 @@
 
 ## Χρήσιμοι Σύνδεσμοι
 - [Οδηγίες παράδοσης εργασιών και συχνές απορίες](https://courses-ionio.github.io/help/)
-- [HTML, CSS, Javascript](https://www.w3schools.com/)
+- [HTML, CSS, Javascript Tutorials](https://www.w3schools.com/)
 - [Google Maps Javascript API](https://developers.google.com/maps/documentation/javascript/)
 - [Google Firebase](https://firebase.google.com/)
-- [Ionic Framework](https://ionicframework.com/getting-started)
 
