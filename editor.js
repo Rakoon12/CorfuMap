@@ -12,7 +12,7 @@ function init() {
     mapTypeControl: false,
     streetViewControl: false,
     fullscreenControl: false,
-    mapTypeId: 'map'
+    mapTypeId: 'roadmap'
   });
 	
   map.data.setControls(['Point', 'LineString', 'Polygon']);
